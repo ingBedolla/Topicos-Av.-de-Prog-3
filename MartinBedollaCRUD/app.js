@@ -29,7 +29,7 @@ const firebaseConfig = {
 
 // 3. Iniciar firebase
 const app = initializeApp(firebaseConfig);
-const db = getFirestore(app)
+const db = getFirestore(app);
 
 // 4. RESTO DEL CÓDIGO (CRUD)
 let datos = [];
